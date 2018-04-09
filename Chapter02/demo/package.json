@@ -5,12 +5,13 @@
   "main": "flux-demo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "webpack && cd dist && http-server -p 5000"
+    "start": "webpack && cd dist && http-server -p 5000"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
+    "http-server": "0.11.1",
+    "webpack": "4.5.0",
+    "webpack-cli": "2.0.14"
   }
 }
